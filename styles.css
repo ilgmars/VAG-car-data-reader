@@ -1,0 +1,635 @@
+/* Palette built around Škoda Steel Grey (paint code F7A / M3M3):
+   daylight body colour in light mode, the same car at night in dark mode. */
+:root,
+[data-theme="dark"] {
+  --bg: #202327;
+  --panel: #282c30;
+  --panel-2: #31363b;
+  --line: #40464c;
+  --text: #e5e7e9;
+  --muted: #9ba2a8;
+  --steel: #8b9196;
+  --accent: #92b0c0;
+  --on-accent: #14171a;
+  --error: #ec9d95;
+}
+
+[data-theme="light"] {
+  --bg: #e8eaeb;
+  --panel: #f3f4f5;
+  --panel-2: #dfe2e4;
+  --line: #c6cbce;
+  --text: #24282b;
+  --muted: #555c61;
+  --steel: #7a7e81;
+  --accent: #3d5b6a;
+  --on-accent: #fff;
+  --error: #9e332b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  border-top: 3px solid var(--steel);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+th[data-sort]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+header, main, footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+header { padding-top: 72px; padding-bottom: 8px; position: relative; }
+
+h1 { margin: 0 0 14px; font-size: 32px; line-height: 1.2; letter-spacing: -0.01em; }
+
+header p { color: var(--muted); margin: 0; max-width: 620px; line-height: 1.6; }
+
+header p + p { margin-top: 4px; }
+
+header p.cta {
+  margin-top: 18px;
+  color: var(--text);
+  font-size: 15px;
+}
+
+header p.cta a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+header p.cta a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+header p:last-of-type { margin-bottom: 32px; }
+
+h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h2::before {
+  content: "";
+  width: 16px;
+  height: 3px;
+  background: var(--steel);
+  flex: none;
+}
+
+.badge {
+  background: var(--panel-2);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 1px 7px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.switch {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.switch input { position: absolute; opacity: 0; width: 0; height: 0; }
+
+.switch input:focus-visible + .track {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.switch .track {
+  width: 42px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  transition: background .15s;
+  flex: none;
+}
+
+.switch .thumb {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 2px;
+  border-radius: 50%;
+  background: var(--accent);
+  transform: translateX(18px);
+  transition: transform .15s;
+}
+
+.switch input:not(:checked) + .track .thumb { transform: translateX(0); }
+
+.switch-label {
+  font-size: 13px;
+  color: var(--muted);
+  width: 36px;
+}
+
+code {
+  background: var(--panel-2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.dropzone {
+  border: 1.5px dashed var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  padding: 48px 24px;
+  text-align: center;
+  transition: border-color .15s, background .15s;
+}
+
+.dropzone.over {
+  border-color: var(--accent);
+  background: var(--panel-2);
+}
+
+.dropzone label { display: block; cursor: pointer; color: var(--muted); }
+
+.dropzone label strong { color: var(--accent); }
+
+.dropzone label span { display: block; font-size: 13px; margin-top: 6px; }
+
+#sample-btn {
+  margin-top: 14px;
+  background: none;
+  color: var(--accent);
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-weight: 700;
+}
+
+#sample-btn:hover { filter: none; text-decoration: underline; text-underline-offset: 3px; }
+
+button {
+  background: var(--accent);
+  color: var(--on-accent);
+  border: 0;
+  padding: 9px 18px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover { filter: brightness(1.08); }
+
+.status {
+  margin-top: 20px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  background: var(--panel-2);
+  color: var(--muted);
+}
+
+.status.error { color: var(--error); }
+
+#report > section { margin-top: 40px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 28px 0 0;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 14px 16px;
+  min-width: 0;
+}
+
+.card .k {
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.card .v {
+  font-size: 15px;
+  margin-top: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin: 28px 0 0;
+}
+
+.toolbar input,
+.toolbar select {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 9px 14px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.toolbar input { flex: 1; min-width: 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.struct-body > table:not(.struct) td:first-child { width: 40%; }
+.struct-body > table:not(.struct) .num { white-space: nowrap; width: 1%; }
+
+th {
+  background: var(--panel-2);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+  user-select: none;
+  white-space: nowrap;
+}
+
+th[data-sort] { cursor: pointer; }
+
+th[data-sort]:hover { color: var(--text); }
+
+th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+td .name { font-weight: 500; }
+
+.flag-new {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--accent);
+  vertical-align: 2px;
+  cursor: help;
+}
+
+td .sub { color: var(--muted); font-size: 12px; margin-top: 3px; }
+
+td .unit { color: var(--muted); font-size: 12px; margin-left: 4px; }
+
+tbody tr.signal { cursor: pointer; }
+
+tbody tr.signal:hover { background: var(--panel-2); }
+
+tbody tr.signal:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+tr:last-child td { border-bottom: 0; }
+
+.history td { padding: 0; }
+
+.history-inner { background: var(--panel-2); padding: 16px; }
+
+.history-desc { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+
+.history-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+
+.history-tabs button {
+  background: var(--panel);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 5px 12px;
+  font-size: 13px;
+}
+
+.history-tabs button.active { color: var(--on-accent); background: var(--accent); border-color: var(--accent); }
+
+.chart-box { height: 320px; }
+
+.history-wrap { max-height: 320px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+
+.history-wrap table { border: 0; border-radius: 0; }
+
+.history-wrap th { background: var(--panel); position: sticky; top: 0; }
+
+.hint { color: var(--muted); font-size: 12px; margin: 0 0 14px; }
+
+#track-map {
+  height: 380px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  /* neutral local backdrop until the user opts into street tiles */
+  background:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-color: var(--panel);
+}
+
+#track-map.leaflet-container { font: inherit; }
+
+.track-actions { margin-top: 12px; display: flex; align-items: center; gap: 12px; }
+
+.track-actions .osm-loaded { color: var(--muted); font-size: 12px; }
+
+.track-popup { font: 13px/1.4 system-ui, sans-serif; }
+
+.struct-group {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.struct-group summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.struct-group summary::-webkit-details-marker { display: none; }
+
+.struct-group summary::before { content: "▸ "; color: var(--muted); }
+
+.struct-group[open] summary::before { content: "▾ "; }
+
+.struct-group summary .muted { color: var(--muted); font-weight: 400; font-size: 12px; }
+
+.struct-body { padding: 0 16px 16px; overflow-x: auto; }
+
+table.struct { table-layout: auto; font-size: 13px; }
+
+table.struct th,
+table.struct td {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+}
+
+table.struct th {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+table.struct td.idx { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+table.struct.kv { width: auto; }
+
+table.struct.kv > tbody > tr > th {
+  width: 1%;
+  white-space: nowrap;
+  color: var(--muted);
+  font-weight: 500;
+  vertical-align: top;
+}
+
+table.struct table { margin: -4px 0; border: 0; }
+
+table.struct table th { background: transparent; }
+
+details.arr > summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--accent);
+  font-size: 12px;
+  padding: 3px 0;
+  user-select: none;
+}
+
+details.arr > summary::-webkit-details-marker { display: none; }
+
+details.arr > summary::before { content: "▸ "; }
+
+details.arr[open] > summary::before { content: "▾ "; }
+
+details.arr > summary:hover { text-decoration: underline; }
+
+details.arr[open] > summary { margin-bottom: 6px; }
+
+.recs { display: flex; flex-direction: column; gap: 10px; }
+
+.rec {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.rec-h {
+  background: var(--panel-2);
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  padding: 5px 12px;
+}
+
+.rec-b { padding: 10px 12px; }
+
+.rec-b > table.struct.kv { width: 100%; }
+
+.rec-b .recs { margin-top: 4px; }
+
+.kv-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+}
+
+.kv-inline span { white-space: nowrap; }
+
+.kv-inline b {
+  color: var(--muted);
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.table-scroll { overflow-x: auto; max-width: 100%; }
+
+footer {
+  padding: 48px 24px;
+  color: var(--muted);
+  text-align: center;
+}
+
+footer a { color: var(--accent); text-decoration: none; }
+
+@media (max-width: 640px) {
+  header, main, footer { padding-left: 16px; padding-right: 16px; }
+
+  header { padding-top: 56px; }
+
+  h1 { font-size: 23px; }
+
+  header p,
+  header p.cta { font-size: 14px; max-width: none; }
+
+  header p.cta a { white-space: normal; }
+
+  .switch { top: 14px; right: 16px; }
+
+  .switch-label { display: none; }
+
+  #report > section { margin-top: 28px; }
+
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .card { padding: 12px; }
+
+  .card .v { font-size: 14px; }
+
+  .toolbar { flex-wrap: wrap; margin-top: 20px; }
+
+  /* 16px inputs stop iOS Safari from zooming in on focus */
+  .toolbar input,
+  .toolbar select { font-size: 16px; }
+
+  .toolbar input { flex: 1 1 100%; }
+
+  /* comfortable touch targets */
+  .history-tabs button { padding: 11px 18px; }
+
+  details.arr > summary { padding: 10px 0; }
+
+  .toolbar select { flex: 1 1 auto; }
+
+  .toolbar button { flex: 0 0 auto; }
+
+  th, td { padding: 8px 10px; }
+
+  table { font-size: 13px; }
+
+  .struct-body { padding: 0 12px 12px; -webkit-overflow-scrolling: touch; }
+
+  /* signal rows become stacked cards instead of a cramped table */
+  #signals-body > details > .struct-body > table,
+  #signals-body > details > .struct-body > table > tbody,
+  #signals-body > details > .struct-body > table > tbody > tr,
+  #signals-body > details > .struct-body > table > tbody > tr > td {
+    display: block;
+    width: auto;
+  }
+
+  #signals-body > details > .struct-body > table > thead { display: none; }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal {
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td {
+    padding: 0;
+    border: 0;
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:first-child {
+    margin-bottom: 7px;
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:first-child * {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:first-child .name {
+    font-size: 14px;
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:not(:first-child) {
+    display: inline-block;
+    margin: 2px 16px 0 0;
+    font-size: 13px;
+    color: var(--text);
+    text-align: left;
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:nth-child(4),
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:nth-child(5) {
+    display: none;
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td::before {
+    color: var(--muted);
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:nth-child(2)::before {
+    content: "Records: ";
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:nth-child(3)::before {
+    content: "Latest: ";
+  }
+
+  #signals-body > details > .struct-body > table > tbody > tr.signal > td:nth-child(6)::before {
+    content: "Last seen: ";
+  }
+
+  #signals-body .sub.raw { display: none; }
+
+  .chart-box { height: 240px; }
+
+  #track-map { height: 280px; }
+
+  .history-inner { padding: 12px; }
+
+  .history-wrap { max-height: 260px; }
+
+  table.struct { font-size: 12px; }
+}

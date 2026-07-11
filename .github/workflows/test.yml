@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  pull_request:
+  workflow_call:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check JavaScript syntax
+        run: node --check app.js
+      - name: Check JSON validity
+        run: node -e "JSON.parse(require('fs').readFileSync('data-dictionary.json'))"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: npm ci
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+      - name: Run browser tests (desktop, tablet, mobile)
+        run: npx playwright test
+      - uses: actions/upload-artifact@v5
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7

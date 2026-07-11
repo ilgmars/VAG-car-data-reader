@@ -1,0 +1,9 @@
+/*.json
+!/data-dictionary.json
+!/package.json
+!/package-lock.json
+/*.zip
+.data-dictionary/
+node_modules/
+test-results/
+playwright-report/
