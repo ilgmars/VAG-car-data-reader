@@ -217,6 +217,9 @@ function build(docs, dict) {
         structuredCount++;
         continue;
       }
+      // skip rows with no usable value — they show up en masse in real exports
+      // and would render as the literal string "undefined" in every UI column
+      if (!("value" in row) || row.value == null || row.value === "") continue;
       let g = map.get(name);
       if (!g) {
         g = {
@@ -245,35 +248,37 @@ function build(docs, dict) {
   let maxTime = -Infinity;
 
   const tv = (r) => (isNaN(r.t) ? -Infinity : r.t);
-  groups = [...map.values()].map((g) => {
-    // newest first; records without a valid timestamp sink to the end
-    g.rows.sort((a, b) => tv(b) - tv(a) || 0);
-    const latest = g.rows[0];
-    const series = g.rows
-      .map((r) => ({ x: r.t, y: numOf(r.value) }))
-      .filter((p) => p.y !== null && !isNaN(p.x))
-      .sort((a, b) => a.x - b.x);
-    const ys = series.map((p) => p.y);
-    const ts = g.rows.map((r) => r.t).filter((t) => !isNaN(t));
-    const tMin = ts.length ? ts[ts.length - 1] : NaN;
-    const tMax = ts.length ? ts[0] : NaN;
-    if (tMin < minTime) minTime = tMin;
-    if (tMax > maxTime) maxTime = tMax;
-    g.series = series;
-    g.count = g.rows.length;
-    g.latest = latest.value;
-    g.latestT = latest.t;
-    // no spread here: Math.min(...ys) overflows the stack on 100k+ records
-    let mn = Infinity;
-    let mx = -Infinity;
-    for (const y of ys) {
-      if (y < mn) mn = y;
-      if (y > mx) mx = y;
-    }
-    g.min = ys.length ? mn : null;
-    g.max = ys.length ? mx : null;
-    return g;
-  });
+  groups = [...map.values()]
+    .filter((g) => g.rows.length > 0)
+    .map((g) => {
+      // newest first; records without a valid timestamp sink to the end
+      g.rows.sort((a, b) => tv(b) - tv(a) || 0);
+      const latest = g.rows[0];
+      const series = g.rows
+        .map((r) => ({ x: r.t, y: numOf(r.value) }))
+        .filter((p) => p.y !== null && !isNaN(p.x))
+        .sort((a, b) => a.x - b.x);
+      const ys = series.map((p) => p.y);
+      const ts = g.rows.map((r) => r.t).filter((t) => !isNaN(t));
+      const tMin = ts.length ? ts[ts.length - 1] : NaN;
+      const tMax = ts.length ? ts[0] : NaN;
+      if (tMin < minTime) minTime = tMin;
+      if (tMax > maxTime) maxTime = tMax;
+      g.series = series;
+      g.count = g.rows.length;
+      g.latest = latest.value;
+      g.latestT = latest.t;
+      // no spread here: Math.min(...ys) overflows the stack on 100k+ records
+      let mn = Infinity;
+      let mx = -Infinity;
+      for (const y of ys) {
+        if (y < mn) mn = y;
+        if (y > mx) mx = y;
+      }
+      g.min = ys.length ? mn : null;
+      g.max = ys.length ? mx : null;
+      return g;
+    });
   groups.forEach((g, i) => (g.i = i));
 
   const byCluster = new Map();
