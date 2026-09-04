@@ -401,7 +401,7 @@ function renderSignals() {
       shown += rows.length;
       const open = openNow.has(c.name) || q || only || clusters.length <= 3 ? " open" : "";
       return `<details class="struct-group" data-name="${esc(c.name)}"${open}>
-        <summary>${esc(c.name)} <span class="muted">${rows.length} signal${rows.length > 1 ? "s" : ""}</span><button class="raw-btn" type="button" aria-label="Show raw data for this cluster">Raw</button></summary>
+        <summary>${esc(c.name)} <span class="muted">${rows.length} signal${rows.length > 1 ? "s" : ""}</span></summary>
         <div class="struct-body"><table>
           <thead><tr>
             <th data-sort="label" tabindex="0"${ariaSort("label")}>Signal${arrow("label")}</th>
@@ -420,7 +420,8 @@ function renderSignals() {
                   : ""
               }</div>
               ${g.desc ? `<div class="sub">${esc(g.desc)}</div>` : ""}
-              <div class="sub raw">${esc(g.name)}</div></td>
+              <div class="sub raw">${esc(g.name)}</div>
+              <button class="raw-btn" type="button" aria-label="Show raw data for ${esc(g.label)}">Raw</button></td>
             <td class="num">${g.count.toLocaleString()}</td>
             <td class="num">${valCell(g.latest, g.unit)}</td>
             <td class="num">${g.min === null ? "—" : g.min}</td>
@@ -436,49 +437,40 @@ function renderSignals() {
 
   if (!shown) signalsBody.innerHTML = '<p class="hint">No signals match the filter.</p>';
 
-  signalsBody.querySelectorAll(".raw-btn").forEach((btn) => {
+  signalsBody.querySelectorAll("button.raw-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      e.preventDefault();
       e.stopPropagation();
-      toggleClusterRaw(btn.closest("details.struct-group"));
+      toggleSignalRaw(btn.closest("tr.signal"));
     });
   });
 }
 
-function toggleClusterRaw(detailsEl) {
-  const next = detailsEl.querySelector(".cluster-raw-pane");
-  if (next) {
-    next.remove();
+function toggleSignalRaw(signalRow) {
+  if (!signalRow) return;
+  const existing = signalRow.nextElementSibling;
+  if (existing && existing.classList.contains("signal-raw-pane")) {
+    existing.remove();
     return;
   }
-  const cName = detailsEl.dataset.name;
-  const cluster = clusters.find((c) => c.name === cName);
-  if (!cluster) return;
-  const allRows = [];
-  for (const g of cluster.list) {
-    for (const r of g.rows) allRows.push({ g, r });
-  }
-  allRows.sort((a, b) => {
-    const ta = isNaN(a.r.t) ? -Infinity : a.r.t;
-    const tb = isNaN(b.r.t) ? -Infinity : b.r.t;
-    return tb - ta;
-  });
-  const shown = allRows.slice(0, 2000);
-  const note = allRows.length > shown.length
-    ? `<p class="hint">Raw shows the latest ${shown.length.toLocaleString()} of ${allRows.length.toLocaleString()} records in this cluster.</p>`
+  const g = groups[+signalRow.dataset.i];
+  if (!g) return;
+  const shown = g.rows.slice(0, 2000);
+  const note = g.rows.length > shown.length
+    ? `<p class="hint">Raw shows the latest ${shown.length.toLocaleString()} of ${g.count.toLocaleString()} records.</p>`
     : "";
-  const html = `<div class="cluster-raw-pane raw-pane"><div class="history-wrap"><table>
-    <thead><tr><th>Field</th><th class="num">Value</th><th>Timestamp</th></tr></thead>
-    <tbody>${shown
-      .map(
-        ({ g, r }) => `<tr><td class="raw-field">${esc(g.name)}</td><td class="num">${
-          r.value === undefined || r.value === null || r.value === "" ? "" : esc(r.value)
-        }</td><td>${fmtDate(r.t)}</td></tr>`
-      )
-      .join("")}</tbody>
-  </table></div></div>`;
-  const table = detailsEl.querySelector(".struct-body");
-  table.insertAdjacentHTML("afterend", html);
+  const html = `<tr class="signal-raw-pane"><td colspan="6"><div class="raw-pane">
+    <div class="history-wrap"><table>
+      <thead><tr><th>Field</th><th class="num">Value</th><th>Timestamp</th></tr></thead>
+      <tbody>${shown
+        .map(
+          (r) => `<tr><td class="raw-field">${esc(g.name)}</td><td class="num">${
+            r.value === undefined || r.value === null || r.value === "" ? "" : esc(r.value)
+          }</td><td>${fmtDate(r.t)}</td></tr>`
+        )
+        .join("")}</tbody>
+    </table></div>${note}
+  </div></td></tr>`;
+  signalRow.insertAdjacentHTML("afterend", html);
 }
 
 function metaFor(path) {
