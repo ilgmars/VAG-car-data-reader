@@ -102,3 +102,24 @@ test("CSV export contains only rows with values; no literal 'undefined' cells", 
   expect(lines.length).toBe(2);
   expect(lines[1]).toContain(",30,");
 });
+
+// The real export has rows like {key, dataFieldName, timestampUtc} with no
+// `value` key at all (the portal records an event but reports no measurement),
+// and the timestamp is "YYYY-MM-DD HH:MM:SS" — no T, no Z. The whole point of
+// the filter is to drop those, but the tests above use ISO strings. Lock it in
+// with a fixture that mirrors the real shape.
+test("real export shape: rows with no value key and space-separated timestamps", async ({ page }) => {
+  await load(page, [
+    { name: "recommendedGearIndication", t: "2026-08-12 05:04:10" },
+    { name: "recommendedGearIndication", t: "2026-08-12 05:04:15" },
+    { name: "recommendedGearIndication", t: "2026-08-12 05:04:20", value: "3" },
+    { name: "recommendedGearIndication", t: "2026-08-12 05:04:25" },
+  ]);
+  const row = page.locator("tr.signal", { hasText: /Recommended Gear/ });
+  await expect(row).toHaveCount(1);
+  await expect(row.locator("td").nth(1)).toHaveText("1");
+  await expect(row.locator("td").nth(2)).toHaveText("3");
+  // Every visible cell must not contain the literal string "undefined"
+  const cells = await row.locator("td").allTextContents();
+  for (const c of cells) expect(c).not.toMatch(/undefined/);
+});
