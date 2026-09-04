@@ -420,8 +420,7 @@ function renderSignals() {
                   : ""
               }</div>
               ${g.desc ? `<div class="sub">${esc(g.desc)}</div>` : ""}
-              <div class="sub raw">${esc(g.name)}</div>
-              <button class="raw-btn" type="button" aria-label="Show raw data for ${esc(g.label)}">Raw</button></td>
+              <div class="sub raw">${esc(g.name)}</div></td>
             <td class="num">${g.count.toLocaleString()}</td>
             <td class="num">${valCell(g.latest, g.unit)}</td>
             <td class="num">${g.min === null ? "—" : g.min}</td>
@@ -436,41 +435,6 @@ function renderSignals() {
     .join("");
 
   if (!shown) signalsBody.innerHTML = '<p class="hint">No signals match the filter.</p>';
-
-  signalsBody.querySelectorAll("button.raw-btn").forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      toggleSignalRaw(btn.closest("tr.signal"));
-    });
-  });
-}
-
-function toggleSignalRaw(signalRow) {
-  if (!signalRow) return;
-  const existing = signalRow.nextElementSibling;
-  if (existing && existing.classList.contains("signal-raw-pane")) {
-    existing.remove();
-    return;
-  }
-  const g = groups[+signalRow.dataset.i];
-  if (!g) return;
-  const shown = g.rows.slice(0, 2000);
-  const note = g.rows.length > shown.length
-    ? `<p class="hint">Raw shows the latest ${shown.length.toLocaleString()} of ${g.count.toLocaleString()} records.</p>`
-    : "";
-  const html = `<tr class="signal-raw-pane"><td colspan="6"><div class="raw-pane">
-    <div class="history-wrap"><table>
-      <thead><tr><th>Field</th><th class="num">Value</th><th>Timestamp</th></tr></thead>
-      <tbody>${shown
-        .map(
-          (r) => `<tr><td class="raw-field">${esc(g.name)}</td><td class="num">${
-            r.value === undefined || r.value === null || r.value === "" ? "" : esc(r.value)
-          }</td><td>${fmtDate(r.t)}</td></tr>`
-        )
-        .join("")}</tbody>
-    </table></div>${note}
-  </div></td></tr>`;
-  signalRow.insertAdjacentHTML("afterend", html);
 }
 
 function metaFor(path) {
