@@ -217,9 +217,6 @@ function build(docs, dict) {
         structuredCount++;
         continue;
       }
-      // skip rows with no usable value — they show up en masse in real exports
-      // and would render as the literal string "undefined" in every UI column
-      if (!("value" in row) || row.value == null || row.value === "") continue;
       let g = map.get(name);
       if (!g) {
         g = {
@@ -254,6 +251,10 @@ function build(docs, dict) {
       // newest first; records without a valid timestamp sink to the end
       g.rows.sort((a, b) => tv(b) - tv(a) || 0);
       const latest = g.rows[0];
+      // newest row that has a value; rows whose `value` field is missing
+      // are common in real exports and the Latest column should show the
+      // newest measurement, not "undefined"
+      const withValue = g.rows.find((r) => r.value !== undefined && r.value !== null && r.value !== "");
       const series = g.rows
         .map((r) => ({ x: r.t, y: numOf(r.value) }))
         .filter((p) => p.y !== null && !isNaN(p.x))
@@ -266,7 +267,7 @@ function build(docs, dict) {
       if (tMax > maxTime) maxTime = tMax;
       g.series = series;
       g.count = g.rows.length;
-      g.latest = latest.value;
+      g.latest = withValue ? withValue.value : undefined;
       g.latestT = latest.t;
       // no spread here: Math.min(...ys) overflows the stack on 100k+ records
       let mn = Infinity;
@@ -345,6 +346,7 @@ function unitText(u) {
 }
 
 function valCell(v, unit) {
+  if (v === undefined || v === null || v === "") return "—";
   return esc(v) + (NUMERIC.test(String(v)) ? unitText(unit) : "");
 }
 
@@ -399,7 +401,7 @@ function renderSignals() {
       shown += rows.length;
       const open = openNow.has(c.name) || q || only || clusters.length <= 3 ? " open" : "";
       return `<details class="struct-group" data-name="${esc(c.name)}"${open}>
-        <summary>${esc(c.name)} <span class="muted">${rows.length} signal${rows.length > 1 ? "s" : ""}</span></summary>
+        <summary>${esc(c.name)} <span class="muted">${rows.length} signal${rows.length > 1 ? "s" : ""}</span><button class="raw-btn" type="button" aria-label="Show raw data for this cluster">Raw</button></summary>
         <div class="struct-body"><table>
           <thead><tr>
             <th data-sort="label" tabindex="0"${ariaSort("label")}>Signal${arrow("label")}</th>
@@ -433,6 +435,50 @@ function renderSignals() {
     .join("");
 
   if (!shown) signalsBody.innerHTML = '<p class="hint">No signals match the filter.</p>';
+
+  signalsBody.querySelectorAll(".raw-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleClusterRaw(btn.closest("details.struct-group"));
+    });
+  });
+}
+
+function toggleClusterRaw(detailsEl) {
+  const next = detailsEl.querySelector(".cluster-raw-pane");
+  if (next) {
+    next.remove();
+    return;
+  }
+  const cName = detailsEl.dataset.name;
+  const cluster = clusters.find((c) => c.name === cName);
+  if (!cluster) return;
+  const allRows = [];
+  for (const g of cluster.list) {
+    for (const r of g.rows) allRows.push({ g, r });
+  }
+  allRows.sort((a, b) => {
+    const ta = isNaN(a.r.t) ? -Infinity : a.r.t;
+    const tb = isNaN(b.r.t) ? -Infinity : b.r.t;
+    return tb - ta;
+  });
+  const shown = allRows.slice(0, 2000);
+  const note = allRows.length > shown.length
+    ? `<p class="hint">Raw shows the latest ${shown.length.toLocaleString()} of ${allRows.length.toLocaleString()} records in this cluster.</p>`
+    : "";
+  const html = `<div class="cluster-raw-pane raw-pane"><div class="history-wrap"><table>
+    <thead><tr><th>Field</th><th class="num">Value</th><th>Timestamp</th></tr></thead>
+    <tbody>${shown
+      .map(
+        ({ g, r }) => `<tr><td class="raw-field">${esc(g.name)}</td><td class="num">${
+          r.value === undefined || r.value === null || r.value === "" ? "" : esc(r.value)
+        }</td><td>${fmtDate(r.t)}</td></tr>`
+      )
+      .join("")}</tbody>
+  </table></div></div>`;
+  const table = detailsEl.querySelector(".struct-body");
+  table.insertAdjacentHTML("afterend", html);
 }
 
 function metaFor(path) {
@@ -728,6 +774,22 @@ function toggleHistory(tr) {
         .join("")}</tbody>
     </table></div>`;
 
+  const rawRows = g.rows.slice(0, 2000);
+  const rawNote = g.rows.length > rawRows.length
+    ? `<p class="hint">Raw shows the latest ${rawRows.length.toLocaleString()} of ${g.count.toLocaleString()} records.</p>`
+    : "";
+  const rawHtml = `
+    <div class="history-wrap"><table>
+      <thead><tr><th>Field</th><th class="num">Value</th><th>Timestamp</th></tr></thead>
+      <tbody>${rawRows
+        .map(
+          (r) => `<tr><td class="raw-field">${esc(g.name)}</td><td class="num">${
+            r.value === undefined || r.value === null || r.value === "" ? "" : esc(r.value)
+          }</td><td>${fmtDate(r.t)}</td></tr>`
+        )
+        .join("")}</tbody>
+    </table></div>`;
+
   const desc = g.desc ? `<p class="history-desc">${esc(g.desc)}</p>` : "";
   const html = `
     <tr class="history"><td colspan="6"><div class="history-inner">
@@ -735,9 +797,11 @@ function toggleHistory(tr) {
       <div class="history-tabs">
         ${hasChart ? '<button data-tab="chart" class="active">Chart</button>' : ""}
         <button data-tab="table"${hasChart ? "" : ' class="active"'}>Table</button>
+        <button data-tab="raw">Raw</button>
       </div>
       ${hasChart ? '<div class="hint">Scroll to zoom, drag to pan, hover for values.</div><div class="pane chart-box"><canvas></canvas></div>' : ""}
       <div class="pane table-pane"${hasChart ? " hidden" : ""}>${note}${tableHtml}</div>
+      <div class="pane raw-pane" hidden>${rawNote}${rawHtml}</div>
     </div></td></tr>`;
   tr.insertAdjacentHTML("afterend", html);
 
@@ -750,6 +814,7 @@ function toggleHistory(tr) {
       const chartBox = histRow.querySelector(".chart-box");
       if (chartBox) chartBox.hidden = tab !== "chart";
       histRow.querySelector(".table-pane").hidden = tab !== "table";
+      histRow.querySelector(".raw-pane").hidden = tab !== "raw";
     })
   );
 }
