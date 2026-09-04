@@ -3,577 +3,2310 @@
   "userId": "00000000-0000-0000-0000-000000000000",
   "Data": [
     {
-      "key": "88181105-c264-3b40-a058-59cc3f53e99c",
-      "dataFieldName": "primaryEngineSpeedIndication",
-      "timestampUtc": "2026-03-27 14:19:39"
-    },
-    {
-      "key": "88181105-c264-3b40-a058-59cc3f53e99c",
-      "dataFieldName": "primaryEngineSpeedIndication",
-      "timestampUtc": "2026-06-28 17:54:43"
-    },
-    {
-      "key": "dcbccfcb-eb00-364f-b411-9aa064a38cdb",
-      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
-      "timestampUtc": "2026-03-12 18:02:26"
-    },
-    {
-      "key": "ea58e713-ef44-3150-9303-edfc519dcdc1",
-      "dataFieldName": "inspectionDistance",
-      "value": "28700",
-      "timestampUtc": "2026-08-27T12:45:44.564Z"
-    },
-    {
-      "key": "b69aab5a-7882-35e2-927f-f6af1213ba8f",
+      "key": "00000000-0000-4000-8000-000000000003",
       "dataFieldName": "fogLightFrontIndication",
-      "timestampUtc": "2026-04-18 10:57:49"
+      "timestampUtc": "2026-08-09 15:33:51"
     },
     {
-      "key": "e27814c5-f217-39c1-ae7e-c328000ce585",
-      "dataFieldName": "acceleratorPositionIndication",
-      "timestampUtc": "2026-05-15 10:47:20"
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "drivingLightRearIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
     },
     {
-      "key": "9a94d2e8-c431-3149-b3c5-af04c8ecf9f3",
-      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
-      "timestampUtc": "2026-02-05 10:47:20"
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-08-14T01:55:05Z"
     },
     {
-      "key": "075d22e8-f231-33f2-b1f0-d61de21aa9f3",
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
       "dataFieldName": "gearboxOilTemperaturIndication",
-      "timestampUtc": "2026-05-05 13:12:39"
+      "timestampUtc": "2026-07-27T02:50:10Z"
     },
     {
-      "key": "121aed46-b4ef-334d-9d05-3c8862a6c903",
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "fogLightFrontIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "freeWheelingIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "value": "97",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "value": "73",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "recuperationLevelIndication",
+      "value": "5",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "freeWheelingIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "value": "100",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "currentGearIndication",
+      "value": "-1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "value": "76",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "ignition",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "highBeamFrontIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "reverseGearIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "inspectionOilDistance",
+      "value": "28408",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "value": "5.1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "driverIsBrakingIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "outsideTemperatureIndication",
+      "value": "35",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
       "dataFieldName": "fogLightRearIndication",
-      "timestampUtc": "2026-05-22 05:15:55"
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
     },
     {
-      "key": "b94a8f29-9457-3cf0-9582-fe9a22e4d761",
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "drivingLightFrontIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "fogLightRearIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "value": "79",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "reverseGearIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "speed",
+      "value": "163",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "acceleratorPositionIndication",
+      "value": "14",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "value": "12.4",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "highBeamFrontIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "value": "9.1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "parkingBrakeIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "driverIsBrakingIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "inspectionDistance",
+      "value": "27396",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "value": "70",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "inspectionOilDistance",
+      "value": "29472",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "value": "3499",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "value": "84",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "value": "69",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "longTermAverageConsumption",
+      "value": "4.7",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "ignition",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "drivingLightRearIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "doorTrunkStateIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "value": "68",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "value": "83",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "value": "11.6",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "value": "1.7",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "recuperationLevelIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
       "dataFieldName": "mileage_km",
-      "value": "28804 km",
-      "timestampUtc": "2026-07-13 13:13:39"
+      "value": "15049",
+      "timestampUtc": "2026-07-30T05:11:37Z"
     },
     {
-      "key": "b94a8f29-9457-3cf0-9582-fe9a22e4d761",
-      "dataFieldName": "mileage_km",
-      "value": "29463 km",
-      "timestampUtc": "2026-08-06 15:05:57"
-    },
-    {
-      "key": "32aa50a8-1514-3f27-b1d6-abba2d0c1108",
-      "dataFieldName": "driverIsBrakingIndication",
-      "timestampUtc": "2026-02-19 17:02:58"
-    },
-    {
-      "key": "b06b7c81-2de5-3aa3-847c-4ee16a56233b",
-      "dataFieldName": "inspectionOilDistance",
-      "value": "28800",
-      "timestampUtc": "2026-08-26T12:13:16.770Z"
-    },
-    {
-      "key": "dcbccfcb-eb00-364f-b411-9aa064a38cdb",
-      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
-      "timestampUtc": "2026-08-06 15:11:32"
-    },
-    {
-      "key": "aa13ba9d-670d-33fc-a0e1-0a16068da40f",
-      "dataFieldName": "longTermTimeIndication",
-      "timestampUtc": "2026-03-20 16:33:57"
-    },
-    {
-      "key": "07f5ae10-a385-3425-b579-c31db77fe16a",
-      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
-      "timestampUtc": "2026-04-19 16:29:53"
-    },
-    {
-      "key": "05952d59-74b3-3454-9bda-3950deb7de80",
-      "dataFieldName": "drivingLightRearIndication",
-      "timestampUtc": "2026-03-10 11:05:02"
-    },
-    {
-      "key": "b06b7c81-2de5-3aa3-847c-4ee16a56233b",
-      "dataFieldName": "inspectionOilDistance",
-      "value": "28700",
-      "timestampUtc": "2026-08-30T15:50:24.423Z"
-    },
-    {
-      "key": "a7d18333-30ca-38e3-bf45-74d63352ceb3",
-      "dataFieldName": "boardnetBatteryVoltageIndication",
-      "timestampUtc": "2026-04-03 18:36:00"
-    },
-    {
-      "key": "4424aa35-0aaf-3d22-ab80-9b8fb1f83db5",
-      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
-      "timestampUtc": "2026-04-10 15:03:23"
-    },
-    {
-      "key": "32aa50a8-1514-3f27-b1d6-abba2d0c1108",
-      "dataFieldName": "driverIsBrakingIndication",
-      "timestampUtc": "2026-08-10 15:00:18"
-    },
-    {
-      "key": "1c225c7a-808d-3c9a-a5d5-f8e4a737354f",
-      "dataFieldName": "clutchStateIndication",
-      "timestampUtc": "2026-06-22 14:06:38"
-    },
-    {
-      "key": "4424aa35-0aaf-3d22-ab80-9b8fb1f83db5",
-      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
-      "timestampUtc": "2026-04-19 09:03:49"
-    },
-    {
-      "key": "33103979-e9e4-3129-8990-36715395e0b8",
-      "dataFieldName": "currentGearIndication",
-      "timestampUtc": "2026-07-02 09:52:51"
-    },
-    {
-      "key": "33103979-e9e4-3129-8990-36715395e0b8",
-      "dataFieldName": "currentGearIndication",
-      "timestampUtc": "2026-05-03 12:03:49"
-    },
-    {
-      "key": "6ae784c1-183c-3eac-9e05-4e0ea787e0bf",
-      "dataFieldName": "doorTrunkStateIndication",
-      "timestampUtc": "2026-02-08 13:55:31"
-    },
-    {
-      "key": "9b73a732-09e3-31fc-93c1-81700a153d75",
-      "dataFieldName": "ignition",
-      "timestampUtc": "2026-03-12 15:22:43"
-    },
-    {
-      "key": "875c7c03-04df-3827-8dc1-7a08011474fe",
-      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
-      "timestampUtc": "2026-05-02 08:20:54"
-    },
-    {
-      "key": "bffa95c3-a30e-3902-be43-b05203a4859d",
-      "dataFieldName": "highBeamFrontIndication",
-      "timestampUtc": "2026-02-20 15:37:02"
-    },
-    {
-      "key": "663e26fc-fbe6-3102-9583-56591a037fe8",
-      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
-      "timestampUtc": "2026-05-04 10:51:23"
-    },
-    {
-      "key": "7acb0db5-8455-3cda-b483-12a37639008e",
-      "dataFieldName": "longTermAverageConsumption",
-      "timestampUtc": "2026-05-17 15:50:50"
-    },
-    {
-      "key": "b5bd074e-09bb-3cc2-b7b4-57647739c1c5",
-      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
-      "timestampUtc": "2026-07-11 12:42:00"
-    },
-    {
-      "key": "7acb0db5-8455-3cda-b483-12a37639008e",
-      "dataFieldName": "longTermAverageConsumption",
-      "timestampUtc": "2026-05-03 09:10:34"
-    },
-    {
-      "key": "aa13ba9d-670d-33fc-a0e1-0a16068da40f",
-      "dataFieldName": "longTermTimeIndication",
-      "timestampUtc": "2026-06-30 10:28:26"
-    },
-    {
-      "key": "9b73a732-09e3-31fc-93c1-81700a153d75",
-      "dataFieldName": "ignition",
-      "timestampUtc": "2026-08-23 11:59:40"
-    },
-    {
-      "key": "40aee898-738d-3d9b-821a-1af893295ff2",
-      "dataFieldName": "speed",
-      "timestampUtc": "2026-03-31 13:23:42"
-    },
-    {
-      "key": "663e26fc-fbe6-3102-9583-56591a037fe8",
-      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
-      "timestampUtc": "2026-06-07 12:06:32"
-    },
-    {
-      "key": "3c15a35c-2472-36fe-84e0-f3993530f526",
-      "dataFieldName": "recommendedGearIndication",
-      "timestampUtc": "2026-05-03 09:26:36"
-    },
-    {
-      "key": "0a470f20-1726-3a7a-8e12-3bd3c380006d",
-      "dataFieldName": "primaryEngineOilTemperatureIndication",
-      "timestampUtc": "2026-02-08 11:16:04"
-    },
-    {
-      "key": "dcbccfcb-eb00-364f-b411-9aa064a38cdb",
-      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
-      "timestampUtc": "2026-07-03 11:07:22"
-    },
-    {
-      "key": "1c225c7a-808d-3c9a-a5d5-f8e4a737354f",
-      "dataFieldName": "clutchStateIndication",
-      "timestampUtc": "2026-06-20 11:18:11"
-    },
-    {
-      "key": "4464cfde-913e-3c29-82d3-bc79d3bd1e34",
-      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
-      "timestampUtc": "2026-04-02 16:24:28"
-    },
-    {
-      "key": "3be3cdfc-cdd7-35d8-a9d4-d3c836d0233f",
-      "dataFieldName": "brakePressureIndication",
-      "timestampUtc": "2026-03-24 18:20:54"
-    },
-    {
-      "key": "21a0595a-b136-32fe-b88e-b0e39eee3c15",
+      "key": "00000000-0000-4000-8000-000000000001",
       "dataFieldName": "parkingBrakeIndication",
-      "timestampUtc": "2026-07-11 12:38:49"
+      "timestampUtc": "2026-07-04T05:11:37Z"
     },
     {
-      "key": "dad7a858-c405-3bc1-950e-206a1c54bdb4",
-      "dataFieldName": "longTermAverageVehicleSpeedIndication",
-      "timestampUtc": "2026-03-10 10:28:45"
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-09-19T11:17:19Z"
     },
     {
-      "key": "3be3cdfc-cdd7-35d8-a9d4-d3c836d0233f",
-      "dataFieldName": "brakePressureIndication",
-      "timestampUtc": "2026-07-22 15:52:02"
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-07-27T02:50:10Z"
     },
     {
-      "key": "9400179c-2067-3f63-abb6-84394ca19e35",
-      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
-      "timestampUtc": "2026-04-28 14:47:18"
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "value": "71",
+      "timestampUtc": "2026-07-30T07:01:47Z"
     },
     {
-      "key": "4464cfde-913e-3c29-82d3-bc79d3bd1e34",
-      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
-      "timestampUtc": "2026-06-22 15:53:21"
-    },
-    {
-      "key": "3be3cdfc-cdd7-35d8-a9d4-d3c836d0233f",
-      "dataFieldName": "brakePressureIndication",
-      "timestampUtc": "2026-03-25 06:10:24"
-    },
-    {
-      "key": "40aee898-738d-3d9b-821a-1af893295ff2",
-      "dataFieldName": "speed",
-      "timestampUtc": "2026-05-03 09:29:00"
-    },
-    {
-      "key": "6ae784c1-183c-3eac-9e05-4e0ea787e0bf",
-      "dataFieldName": "doorTrunkStateIndication",
-      "timestampUtc": "2026-06-02 10:25:22"
-    },
-    {
-      "key": "875c7c03-04df-3827-8dc1-7a08011474fe",
-      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
-      "timestampUtc": "2026-04-03 17:01:40"
-    },
-    {
-      "key": "dda48bb5-5d1f-3c7a-8e71-45aebced7864",
-      "dataFieldName": "recuperationLevelIndication",
-      "timestampUtc": "2026-06-24 14:07:21"
-    },
-    {
-      "key": "121aed46-b4ef-334d-9d05-3c8862a6c903",
-      "dataFieldName": "fogLightRearIndication",
-      "timestampUtc": "2026-04-11 14:14:23"
-    },
-    {
-      "key": "0a470f20-1726-3a7a-8e12-3bd3c380006d",
-      "dataFieldName": "primaryEngineOilTemperatureIndication",
-      "timestampUtc": "2026-03-09 15:04:38"
-    },
-    {
-      "key": "6ae784c1-183c-3eac-9e05-4e0ea787e0bf",
-      "dataFieldName": "doorTrunkStateIndication",
-      "timestampUtc": "2026-02-07 10:38:36"
-    },
-    {
-      "key": "d3da8235-7a63-3f2a-ac5c-1d31ffa0895b",
-      "dataFieldName": "drivingLightFrontIndication",
-      "timestampUtc": "2026-08-08 14:40:01"
-    },
-    {
-      "key": "b06b7c81-2de5-3aa3-847c-4ee16a56233b",
-      "dataFieldName": "inspectionOilDistance",
-      "value": "28700",
-      "timestampUtc": "2026-08-29T09:12:52.055Z"
-    },
-    {
-      "key": "e01ef198-b31d-3e5a-9d35-3fa89b2f6a79",
-      "dataFieldName": "outsideTemperatureIndication",
-      "timestampUtc": "2026-06-11 13:40:34"
-    },
-    {
-      "key": "2d43fd1b-2cc7-394e-9111-7edcb57cd142",
-      "dataFieldName": "freeWheelingIndication",
-      "timestampUtc": "2026-06-21 17:47:31"
-    },
-    {
-      "key": "1c225c7a-808d-3c9a-a5d5-f8e4a737354f",
-      "dataFieldName": "clutchStateIndication",
-      "timestampUtc": "2026-04-27 03:28:16"
-    },
-    {
-      "key": "4464cfde-913e-3c29-82d3-bc79d3bd1e34",
-      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
-      "timestampUtc": "2026-06-20 11:23:09"
-    },
-    {
-      "key": "d3da8235-7a63-3f2a-ac5c-1d31ffa0895b",
-      "dataFieldName": "drivingLightFrontIndication",
-      "timestampUtc": "2026-03-09 17:46:34"
-    },
-    {
-      "key": "2d43fd1b-2cc7-394e-9111-7edcb57cd142",
-      "dataFieldName": "freeWheelingIndication",
-      "timestampUtc": "2026-06-12 07:31:37"
-    },
-    {
-      "key": "dad7a858-c405-3bc1-950e-206a1c54bdb4",
-      "dataFieldName": "longTermAverageVehicleSpeedIndication",
-      "timestampUtc": "2026-05-05 13:57:39"
-    },
-    {
-      "key": "bffa95c3-a30e-3902-be43-b05203a4859d",
-      "dataFieldName": "highBeamFrontIndication",
-      "timestampUtc": "2026-02-13 12:55:09"
-    },
-    {
-      "key": "4424aa35-0aaf-3d22-ab80-9b8fb1f83db5",
-      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
-      "timestampUtc": "2026-05-05 12:39:25"
-    },
-    {
-      "key": "121aed46-b4ef-334d-9d05-3c8862a6c903",
-      "dataFieldName": "fogLightRearIndication",
-      "timestampUtc": "2026-03-10 13:46:35"
-    },
-    {
-      "key": "9400179c-2067-3f63-abb6-84394ca19e35",
-      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
-      "timestampUtc": "2026-02-18 06:02:34"
-    },
-    {
-      "key": "b5bd074e-09bb-3cc2-b7b4-57647739c1c5",
-      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
-      "timestampUtc": "2026-08-02 18:33:48"
-    },
-    {
-      "key": "e01ef198-b31d-3e5a-9d35-3fa89b2f6a79",
-      "dataFieldName": "outsideTemperatureIndication",
-      "timestampUtc": "2026-07-28 10:31:11"
-    },
-    {
-      "key": "875c7c03-04df-3827-8dc1-7a08011474fe",
-      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
-      "timestampUtc": "2026-05-20 14:18:30"
-    },
-    {
-      "key": "a758e3b1-4ac8-3593-bd3f-f5bef1789fa9",
+      "key": "00000000-0000-4000-8000-000000000008",
       "dataFieldName": "reverseGearIndication",
-      "timestampUtc": "2026-03-22 14:17:15"
+      "timestampUtc": "2026-09-22T16:28:56Z"
     },
     {
-      "key": "3c15a35c-2472-36fe-84e0-f3993530f526",
-      "dataFieldName": "recommendedGearIndication",
-      "timestampUtc": "2026-07-10 13:45:51"
-    },
-    {
-      "key": "a7d18333-30ca-38e3-bf45-74d63352ceb3",
-      "dataFieldName": "boardnetBatteryVoltageIndication",
-      "timestampUtc": "2026-05-22 03:24:11"
-    },
-    {
-      "key": "05952d59-74b3-3454-9bda-3950deb7de80",
-      "dataFieldName": "drivingLightRearIndication",
-      "timestampUtc": "2026-06-08 10:42:25"
-    },
-    {
-      "key": "b69aab5a-7882-35e2-927f-f6af1213ba8f",
+      "key": "00000000-0000-4000-8000-000000000008",
       "dataFieldName": "fogLightFrontIndication",
-      "timestampUtc": "2026-07-21 15:19:39"
+      "timestampUtc": "2026-09-22T16:28:56Z"
     },
     {
-      "key": "9a94d2e8-c431-3149-b3c5-af04c8ecf9f3",
-      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
-      "timestampUtc": "2026-03-10 16:52:06"
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "value": "48",
+      "timestampUtc": "2026-07-02 00:00:00"
     },
     {
-      "key": "b8195b22-4c1e-343c-a379-a8b007681bd5",
-      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
-      "timestampUtc": "2026-05-23 08:15:58"
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-09-22T16:28:56Z"
     },
     {
-      "key": "d3da8235-7a63-3f2a-ac5c-1d31ffa0895b",
-      "dataFieldName": "drivingLightFrontIndication",
-      "timestampUtc": "2026-06-27 07:07:20"
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
     },
     {
-      "key": "88181105-c264-3b40-a058-59cc3f53e99c",
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
       "dataFieldName": "primaryEngineSpeedIndication",
-      "timestampUtc": "2026-07-20 15:01:58"
+      "timestampUtc": "2026-07-04T05:11:37Z"
     },
     {
-      "key": "3c15a35c-2472-36fe-84e0-f3993530f526",
-      "dataFieldName": "recommendedGearIndication",
-      "timestampUtc": "2026-06-19 12:54:14"
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
     },
     {
-      "key": "075d22e8-f231-33f2-b1f0-d61de21aa9f3",
-      "dataFieldName": "gearboxOilTemperaturIndication",
-      "timestampUtc": "2026-06-08 14:55:51"
-    },
-    {
-      "key": "b69aab5a-7882-35e2-927f-f6af1213ba8f",
-      "dataFieldName": "fogLightFrontIndication",
-      "timestampUtc": "2026-04-03 10:30:59"
-    },
-    {
-      "key": "a7d18333-30ca-38e3-bf45-74d63352ceb3",
+      "key": "00000000-0000-4000-8000-000000000003",
       "dataFieldName": "boardnetBatteryVoltageIndication",
-      "timestampUtc": "2026-04-29 14:57:04"
+      "timestampUtc": "2026-08-09 15:33:51"
     },
     {
-      "key": "7acb0db5-8455-3cda-b483-12a37639008e",
-      "dataFieldName": "longTermAverageConsumption",
-      "timestampUtc": "2026-05-11 05:18:15"
-    },
-    {
-      "key": "0a470f20-1726-3a7a-8e12-3bd3c380006d",
-      "dataFieldName": "primaryEngineOilTemperatureIndication",
-      "timestampUtc": "2026-07-13 05:03:23"
-    },
-    {
-      "key": "075d22e8-f231-33f2-b1f0-d61de21aa9f3",
-      "dataFieldName": "gearboxOilTemperaturIndication",
-      "timestampUtc": "2026-05-10 11:54:45"
-    },
-    {
-      "key": "05952d59-74b3-3454-9bda-3950deb7de80",
-      "dataFieldName": "drivingLightRearIndication",
-      "timestampUtc": "2026-06-02 10:24:56"
-    },
-    {
-      "key": "21a0595a-b136-32fe-b88e-b0e39eee3c15",
-      "dataFieldName": "parkingBrakeIndication",
-      "timestampUtc": "2026-05-05 13:54:55"
-    },
-    {
-      "key": "07f5ae10-a385-3425-b579-c31db77fe16a",
-      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
-      "timestampUtc": "2026-05-27 14:32:11"
-    },
-    {
-      "key": "07f5ae10-a385-3425-b579-c31db77fe16a",
-      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
-      "timestampUtc": "2026-08-10 16:46:12"
-    },
-    {
-      "key": "dda48bb5-5d1f-3c7a-8e71-45aebced7864",
-      "dataFieldName": "recuperationLevelIndication",
-      "timestampUtc": "2026-06-04 14:26:30"
-    },
-    {
-      "key": "9b73a732-09e3-31fc-93c1-81700a153d75",
-      "dataFieldName": "ignition",
-      "timestampUtc": "2026-05-16 18:13:00"
-    },
-    {
-      "key": "ea58e713-ef44-3150-9303-edfc519dcdc1",
-      "dataFieldName": "inspectionDistance",
-      "value": "28700",
-      "timestampUtc": "2026-08-29T08:49:42.310Z"
-    },
-    {
-      "key": "2d43fd1b-2cc7-394e-9111-7edcb57cd142",
-      "dataFieldName": "freeWheelingIndication",
-      "timestampUtc": "2026-05-05 08:56:56"
-    },
-    {
-      "key": "e27814c5-f217-39c1-ae7e-c328000ce585",
-      "dataFieldName": "acceleratorPositionIndication",
-      "timestampUtc": "2026-07-10 03:23:31"
-    },
-    {
-      "key": "33103979-e9e4-3129-8990-36715395e0b8",
-      "dataFieldName": "currentGearIndication",
-      "timestampUtc": "2026-07-28 04:50:51"
-    },
-    {
-      "key": "e27814c5-f217-39c1-ae7e-c328000ce585",
-      "dataFieldName": "acceleratorPositionIndication",
-      "timestampUtc": "2026-07-31 16:59:30"
-    },
-    {
-      "key": "b5bd074e-09bb-3cc2-b7b4-57647739c1c5",
-      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
-      "timestampUtc": "2026-02-06 18:08:51"
-    },
-    {
-      "key": "dda48bb5-5d1f-3c7a-8e71-45aebced7864",
-      "dataFieldName": "recuperationLevelIndication",
-      "timestampUtc": "2026-04-03 10:03:37"
-    },
-    {
-      "key": "bffa95c3-a30e-3902-be43-b05203a4859d",
-      "dataFieldName": "highBeamFrontIndication",
-      "timestampUtc": "2026-05-13 10:43:25"
-    },
-    {
-      "key": "663e26fc-fbe6-3102-9583-56591a037fe8",
+      "key": "00000000-0000-4000-8000-000000000003",
       "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
-      "timestampUtc": "2026-06-27 06:47:38"
+      "timestampUtc": "2026-08-09 15:33:51"
     },
     {
-      "key": "a758e3b1-4ac8-3593-bd3f-f5bef1789fa9",
-      "dataFieldName": "reverseGearIndication",
-      "timestampUtc": "2026-06-15 04:42:24"
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
     },
     {
-      "key": "a758e3b1-4ac8-3593-bd3f-f5bef1789fa9",
-      "dataFieldName": "reverseGearIndication",
-      "timestampUtc": "2026-04-30 14:57:33"
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
     },
     {
-      "key": "40aee898-738d-3d9b-821a-1af893295ff2",
-      "dataFieldName": "speed",
-      "timestampUtc": "2026-07-06 08:59:16"
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
     },
     {
-      "key": "aa13ba9d-670d-33fc-a0e1-0a16068da40f",
-      "dataFieldName": "longTermTimeIndication",
-      "timestampUtc": "2026-06-22 14:22:26"
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
     },
     {
-      "key": "dad7a858-c405-3bc1-950e-206a1c54bdb4",
-      "dataFieldName": "longTermAverageVehicleSpeedIndication",
-      "timestampUtc": "2026-05-02 14:52:04"
-    },
-    {
-      "key": "32aa50a8-1514-3f27-b1d6-abba2d0c1108",
-      "dataFieldName": "driverIsBrakingIndication",
-      "timestampUtc": "2026-08-23 12:45:23"
-    },
-    {
-      "key": "ea58e713-ef44-3150-9303-edfc519dcdc1",
-      "dataFieldName": "inspectionDistance",
-      "value": "28700",
-      "timestampUtc": "2026-08-27T12:25:43.465Z"
-    },
-    {
-      "key": "9a94d2e8-c431-3149-b3c5-af04c8ecf9f3",
-      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
-      "timestampUtc": "2026-07-17 05:10:43"
-    },
-    {
-      "key": "e01ef198-b31d-3e5a-9d35-3fa89b2f6a79",
-      "dataFieldName": "outsideTemperatureIndication",
-      "timestampUtc": "2026-03-11 09:55:29"
-    },
-    {
-      "key": "21a0595a-b136-32fe-b88e-b0e39eee3c15",
+      "key": "00000000-0000-4000-8000-000000000011",
       "dataFieldName": "parkingBrakeIndication",
-      "timestampUtc": "2026-03-20 16:34:29"
+      "value": "0",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "clutchStateIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "outsideTemperatureIndication",
+      "value": "-6",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "value": "1.7",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "currentGearIndication",
+      "value": "-1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "value": "2.5",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "longTermTimeIndication",
+      "value": "47400",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "speed",
+      "value": "69",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "clutchStateIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "value": "2.5",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "mileage_km",
+      "value": "15147",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "value": "3354",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "drivingLightFrontIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "brakePressureIndication",
+      "value": "184.1",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "recuperationLevelIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "value": "1.7",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "longTermAverageVehicleSpeedIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "acceleratorPositionIndication",
+      "value": "81",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "inspectionDistance",
+      "value": "28470",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "drivingLightRearIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "drivingLightFrontIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "gearboxOilTemperaturIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "ignition",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "value": "127",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "acceleratorPositionIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "value": "4.9",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineCoolantTemperatureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "value": "6.8",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "primaryEngineMaxOutputPowerIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineCurrentOutputPowerIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "currentGearIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "brakePressureIndication",
+      "value": "55.8",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "recommendedGearIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "clutchStateIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "longTermTimeIndication",
+      "value": "81070",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "doorTrunkStateIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "speed",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "inspectionDistance",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "longTermAverageConsumption",
+      "value": "5.8",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "longTermAveragePrimaryEngineConsumptionIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000008",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-09-22T16:28:56Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "outsideTemperatureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "primaryEngineSpeedIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "fogLightRearIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "doorTrunkStateIndication",
+      "value": "0",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "driverIsBrakingIndication",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "longTermAverageSecondaryEngineConsumptionIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "inspectionOilDistance",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000003",
+      "dataFieldName": "longTermTimeIndication",
+      "timestampUtc": "2026-08-09 15:33:51"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "primaryEngineMaxChargingAirPressureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000006",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-09-17 06:06:42"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "primaryEngineRelChargingAirPressureIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineAbsChargingAirPressureIndication",
+      "value": "2.1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "fogLightFrontIndication",
+      "value": "1",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "freeWheelingIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000001",
+      "dataFieldName": "longTermAverageConsumption",
+      "timestampUtc": "2026-07-04T05:11:37Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000005",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-08-14T01:55:05Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "boardnetBatteryVoltageIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "reverseGearIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "brakePressureIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000011",
+      "dataFieldName": "recommendedGearIndication",
+      "value": "5",
+      "timestampUtc": "2026-07-30T07:01:47Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "recommendedGearIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000009",
+      "dataFieldName": "secondaryEngineBatteryStateOfChargeIndication",
+      "timestampUtc": "2026-07-24 21:39:33"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000010",
+      "dataFieldName": "highBeamFrontIndication",
+      "timestampUtc": "2026-07-27T02:50:10Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000000",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "value": "92",
+      "timestampUtc": "2026-07-02 00:00:00"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000004",
+      "dataFieldName": "fogLightFrontIndication",
+      "timestampUtc": "2026-08-12T20:44:28Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000007",
+      "dataFieldName": "parkingBrakeIndication",
+      "timestampUtc": "2026-09-19T11:17:19Z"
+    },
+    {
+      "key": "00000000-0000-4000-8000-000000000002",
+      "dataFieldName": "primaryEngineOilTemperatureIndication",
+      "timestampUtc": "2026-07-07T10:22:14Z"
     }
   ]
 }
