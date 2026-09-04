@@ -2,9 +2,9 @@
 
 [![Deploy to GitHub Pages](https://github.com/ilgmars/VAG-car-data-reader/actions/workflows/deploy.yml/badge.svg)](https://github.com/ilgmars/VAG-car-data-reader/actions/workflows/deploy.yml)
 
-Ever wondered what your car knows about you? - **[Open the tool](https://ilgmars.github.io/VAG-car-data-reader/)**
+**[Open the tool](https://ilgmars.github.io/VAG-car-data-reader/)**
 
-A browser-based tool that turns an exported vehicle data archive into a readable report.
+Reads an exported VAG vehicle data archive and shows what's in it: signal counts, latest values, min/max, time range, history charts and CSV export.
 
 [If you have a VAG vehicle, you can use this service to request your data.](https://eu-data-act.drivesomethinggreater.com) 
 
@@ -19,7 +19,7 @@ A browser-based tool that turns an exported vehicle data archive into a readable
 - Field descriptions, units and cluster names follow the official VW Group
   EU Data Act Data Dictionary (Historical + Continuous Data, v1.0.5, 25.02.2026)
 
-All processing happens locally in your browser — no data is uploaded.
+All processing happens locally in your browser. No data is uploaded.
 
 ## Usage
 

@@ -416,7 +416,7 @@ function renderSignals() {
               (g) => `<tr class="signal" tabindex="0" aria-expanded="false" data-i="${g.i}">
             <td><div class="name">${esc(g.label)}${
                 g.undocumented
-                  ? ' <span class="flag-new" title="This field is not in the bundled data dictionary yet — it may have been added to the vehicle data recently.">new</span>'
+                  ? ' <span class="flag-new" title="This field is not in the bundled data dictionary yet. It may have been added to the vehicle data recently.">new</span>'
                   : ""
               }</div>
               ${g.desc ? `<div class="sub">${esc(g.desc)}</div>` : ""}
@@ -687,7 +687,7 @@ el("osm-btn").addEventListener("click", () => {
 
 function buildChart(canvas, g) {
   canvas.setAttribute("role", "img");
-  canvas.setAttribute("aria-label", `${g.label} history chart — the Table tab has the same data`);
+  canvas.setAttribute("aria-label", `${g.label} history chart. The Table tab has the same data.`);
   const css = getComputedStyle(document.documentElement);
   const accent = css.getPropertyValue("--accent").trim();
   const line = css.getPropertyValue("--line").trim();
